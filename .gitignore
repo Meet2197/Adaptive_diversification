@@ -1,0 +1,25 @@
+# Entire analysis output folder -- excluded per request
+Barley_Analysis/
+
+# Accession crosswalk (contains manually-curated data, kept local only)
+accession_crosswalk.csv
+
+# Large raw/external data (outside Barley_Analysis, if present)
+diversification_barley/
+*.vcf
+*.vcf.gz
+*.fasta
+*.fa
+*.bam
+*.cram
+*.gff3
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
